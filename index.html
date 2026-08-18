@@ -45,22 +45,16 @@ Index · HTML
           <span class="tag tag-rosa">🎨 creativa</span>
           <span class="tag tag-azul">🌍 ES · EN</span>
         </div>
-        <a href="#portfolio" class="hero-cta">ver mis proyectos ↓</a>
       </div>
  
-      <!-- Foto con efecto Sims -->
-      <!-- Cuando tenga la foto, cambio el src del <img> por la imagen -->
+    <!--LAFOTO-->
       <div class="hero-foto-wrapper">
-        <div class="sims-plumbob" aria-hidden="true">
-          <!-- Rombo del Sims  -->
-        </div>
         <img
           src="https://placehold.co/320x380/e6f8f0/2db37a?text=📸+tu+foto"
           alt="Foto mia"
           class="hero-foto"
         >
       </div>
- 
     </section>
     
     <section class="sobre-mi" id="sobre-mi">
@@ -109,5 +103,58 @@ Index · HTML
            <span class="estado estado-live">✓ sobrevivida</span>
          </div>
        </article>
-
+         <article class="proj-card">
+          <div class="proj-thumb thumb-azul">🛍️</div>
+          <div class="proj-body">
+            <h3>Sales Assistant</h3>
+            <p>Atención al cliente · Visual merchandising · Te vendo un pingüino en la Antártida y encima te convenzo de que lo necesitabas 🐧❄️</p>
+            <span class="estado estado-live">✓ vendida</span>
+          </div>
+        </article>
+ 
+        <article class="proj-card">
+          <div class="proj-thumb thumb-amarillo">🔮</div>
+          <div class="proj-body">
+            <h3>Próximamente...</h3>
+            <p>No lo sé ni yo. Pero seguro que tiene buena pinta.</p>
+            <span class="estado estado-wip">⏳ misterio</span>
+          </div>
+        </article>
+ 
+      </div>
+    </section>
+ 
+    <!-- =CONTACTO -->
+    <section class="contacto" id="contacto">
+      <h2 class="seccion-titulo">contacto</h2>
+      <form class="formulario" action="#" method="post">
+        <div class="campo">
+          <label for="nombre">nombre</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+        </div>
+        <div class="campo">
+          <label for="email">email</label>
+          <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+        </div>
+        <div class="campo">
+          <label for="mensaje">mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntame algo chulo..." required></textarea>
+        </div>
+        <button type="submit" class="btn-enviar">enviar mensaje →</button>
+      </form>
+    </section>
+ 
+  </main>
+ 
+  <!-- =FOOTER -->
+  <footer class="footer">
+    <p>© 2025 Claudia · hecho con ganas y mucho CSS</p>
+    <div class="footer-social">
+      <a href="#" aria-label="GitHub">GitHub</a>
+      <a href="#" aria-label="Instagram">Instagram</a>
+    </div>
+  </footer>
       </section>
+
+  </body>
+</html>
